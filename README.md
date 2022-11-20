@@ -1,6 +1,9 @@
 # auto-cf-server
 a collection of personal scripts to automate allowlisting of Cloudflare
 
+```bash
+wget -O - https://raw.githubusercontent.com/NathanAdhitya/auto-cf-server/master/quick.sh | bash
+```
 ## My setup:
 - UFW as firewall
 - NGINX Reverse Proxy with ngx_http_realip_module
