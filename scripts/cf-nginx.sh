@@ -2,7 +2,7 @@
 
 CLOUDFLARE_FILE_PATH=/etc/nginx/conf.d/cloudflare.conf
 
-echo true > $CLOUDFLARE_FILE_PATH;
+touch $CLOUDFLARE_FILE_PATH;
 
 echo "# Cloudflare" > $CLOUDFLARE_FILE_PATH;
 echo "" >> $CLOUDFLARE_FILE_PATH;
